@@ -1,0 +1,91 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   min-height: 100vh;
+background: linear-gradient(120deg, rgb(110, 210, 247), rgb(187, 121, 249));
+font-family: sans-serif;
+}
+.container{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    justify-content: space-between;
+    align-items: center;
+  height: 500px;
+}
+.left-constainer{
+    width: 60%;
+    height: 100%;
+    position: relative;
+}
+.card{
+    /* border: 2px solid black; */
+   aspect-ratio: 2/1;
+   border-radius: 10px;
+    width:60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    box-shadow: -4px 19px 15px 5px rgb(105 105 105);
+
+}
+.first-card{
+    background: linear-gradient(120deg, rgb(131, 0, 253),rgb(187, 121, 249),rgb(249, 104, 227));
+    position: absolute;
+    left: 0%;
+    bottom: 50%;
+}
+.second-card{
+    background: linear-gradient( rgb(121, 161, 249),rgb(239, 122, 101));
+    position: absolute;
+    right: 0%;
+    top: 50%;
+    transform:translateY(-50%);
+}
+.card-img{
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 3%;
+    right: 2%;
+}
+.card-first-line{
+    width: 90%;
+    margin-left: 5%;
+    margin-top:2%;
+    padding: 2px;
+    background: white;
+    border-radius: 4px;
+}
+.card-second-line{
+    width: 40%;
+    align-self: flex-start;
+    margin-left: 5%;
+    margin-top:2%;
+    height: 10%;
+    padding: 2px;
+    background: rgb(208, 207, 207);
+    border-radius: 4px;
+}
+.card-third-line{
+    width: 90%;
+    height: 10%;
+    margin-left: 5%;
+    margin-top:2%;
+    padding: 2px;
+    background: rgb(208, 207, 207);
+    border-radius: 4px;
+}
+.right-constainer{
+    width: 35%;
+    height: 50%;
+
+}
+.highlight{
+    color: blue;
+}
